@@ -28,7 +28,7 @@ todos.directive ('buttonInput', function () {
             >
               <span
                 ng-if="buttonIcon"
-                ng-class="glyphicon-${buttonIcon}" 
+                ng-class="'glyphicon-' + buttonIcon" 
                 class="glyphicon"
               />
               {{buttonText}}
