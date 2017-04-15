@@ -1,0 +1,68 @@
+.app {
+  display: flex;
+  justify-content: center;
+}
+
+.todos {
+  position: relative;
+  margin-top: 100px;
+  max-width: 500px;
+}
+
+.todos__title {
+  text-align: center;
+}
+
+.todos__back {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.todos__inputs, .list__controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0px;
+}
+
+.todos__add-item-input {
+  width: 350px;
+  margin-right: 10px;
+}
+
+.list__progress {
+  flex-grow: 1;
+}
+
+.list-item, .lists-item {
+  display: flex;
+  align-items: center;
+}
+
+.list-item__text, .lists-item__text {
+  flex-grow: 1;
+}
+
+.list-item > *, .lists-item > * {
+  margin: 0 5px;
+}
+
+.progress {
+  margin: 0 10px;
+}
+
+.progress-bar {
+  min-width: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.empty {
+  padding: 50px;
+  text-align: center;
+  font-size: 20px;
+  color: lightgray;
+}
